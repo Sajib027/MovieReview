@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Android\\MovieReview\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\Android\\MovieReview\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\JsonParsingDemo-master\\JsonParsingDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\Android\\JsonParsingDemo-master\\JsonParsingDemo-master\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\JsonParsingDemo-master\\JsonParsingDemo-master\\JsonParsingDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\Android\\JsonParsingDemo-master\\JsonParsingDemo-master\\JsonParsingDemo-master\\app\\src\\main\\res\\menu\\menu_main.xml"
+    }
+]
