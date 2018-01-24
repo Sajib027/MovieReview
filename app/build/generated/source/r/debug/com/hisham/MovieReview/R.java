@@ -1525,7 +1525,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c003d;
         public static final int action_mode_bar_stub=0x7f0c003c;
         public static final int action_mode_close_button=0x7f0c0025;
-        public static final int action_refresh=0x7f0c005b;
+        public static final int action_refresh=0x7f0c005c;
         public static final int activity_chooser_view_content=0x7f0c0026;
         public static final int alertTitle=0x7f0c0030;
         public static final int always=0x7f0c0016;
@@ -1534,6 +1534,7 @@ containing a value of this type.
         public static final int checkbox=0x7f0c0038;
         public static final int collapseActionView=0x7f0c0017;
         public static final int contentPanel=0x7f0c0031;
+        public static final int ctDate=0x7f0c005b;
         public static final int custom=0x7f0c0035;
         public static final int customPanel=0x7f0c0034;
         public static final int decor_content_parent=0x7f0c003e;

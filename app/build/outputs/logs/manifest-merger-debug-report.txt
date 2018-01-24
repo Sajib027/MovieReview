@@ -23,8 +23,8 @@ ADDED from D:\Android\MovieReview\app\src\main\AndroidManifest.xml:6:5-81
 		ADDED from D:\Android\MovieReview\app\src\main\AndroidManifest.xml:6:22-78
 application
 ADDED from D:\Android\MovieReview\app\src\main\AndroidManifest.xml:8:5-25:19
-MERGED from [com.android.support:appcompat-v7:22.1.0] D:\Android\MovieReview\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.1.0] D:\Android\MovieReview\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.1.0] C:\Users\Sajib\.android\build-cache\c531062d8f948b0c2e2c342fb9ee972b8fd45b67\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.1.0] C:\Users\Sajib\.android\build-cache\0eda4bdf9176fabdc7a3154000f6b2736d2308fc\output\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from D:\Android\MovieReview\app\src\main\AndroidManifest.xml:11:9-41
 	android:allowBackup
@@ -57,8 +57,8 @@ ADDED from D:\Android\MovieReview\app\src\main\AndroidManifest.xml:22:9-24:70
 		ADDED from D:\Android\MovieReview\app\src\main\AndroidManifest.xml:23:13-65
 uses-sdk
 INJECTED from D:\Android\MovieReview\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:22.1.0] D:\Android\MovieReview\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.1.0] D:\Android\MovieReview\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.1.0] C:\Users\Sajib\.android\build-cache\c531062d8f948b0c2e2c342fb9ee972b8fd45b67\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.1.0] C:\Users\Sajib\.android\build-cache\0eda4bdf9176fabdc7a3154000f6b2736d2308fc\output\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from D:\Android\MovieReview\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android\MovieReview\app\src\main\AndroidManifest.xml

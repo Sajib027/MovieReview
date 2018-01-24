@@ -9,7 +9,7 @@
     },
     {
         "merged": "D:\\Android\\MovieReview\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "D:\\Android\\MovieReview\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "source": "C:\\Users\\Sajib\\.android\\build-cache\\c531062d8f948b0c2e2c342fb9ee972b8fd45b67\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "D:\\Android\\JsonParsingDemo-master\\JsonParsingDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
@@ -21,6 +21,6 @@
     },
     {
         "merged": "D:\\Android\\MovieReview\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "D:\\Android\\MovieReview\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "source": "C:\\Users\\Sajib\\.android\\build-cache\\c531062d8f948b0c2e2c342fb9ee972b8fd45b67\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

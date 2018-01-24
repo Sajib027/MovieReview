@@ -1,0 +1,19 @@
+#Tue Sep 19 15:07:35 EDT 2017
+renamed.5=classes2.dex
+renamed.4=classes4.dex
+renamed.3=classes3.dex
+renamed.2=classes5.dex
+renamed.1=classes.dex
+renamed.0=classes6.dex
+base.5=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9e19a94bcdcda4b2a1d13a437798f01f99905e2a
+base.4=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.1.0_5b24a624868409f975b2849c3bd547602910cf0a
+base.3=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.3.1_748b4650a1929af6d5f702d2f6df65606c1291ab
+base.2=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.1.0_f638c61d669dd371a73d5a512bf4900b7c1538c3
+base.1=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_76ee4d895a12fb2ec94f3ae9e91856add271d0fe
+base.0=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\universal-image-loader-1.9.4_7c97ef2eeb6a208b215165d5eb79482edd062cc2
+file.5=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9e19a94bcdcda4b2a1d13a437798f01f99905e2a\\classes.dex
+file.4=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.1.0_5b24a624868409f975b2849c3bd547602910cf0a\\classes.dex
+file.3=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.3.1_748b4650a1929af6d5f702d2f6df65606c1291ab\\classes.dex
+file.2=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.1.0_f638c61d669dd371a73d5a512bf4900b7c1538c3\\classes.dex
+file.1=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_76ee4d895a12fb2ec94f3ae9e91856add271d0fe\\classes.dex
+file.0=D\:\\Android\\MovieReview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\universal-image-loader-1.9.4_7c97ef2eeb6a208b215165d5eb79482edd062cc2\\classes.dex
