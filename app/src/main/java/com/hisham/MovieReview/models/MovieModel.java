@@ -1,17 +1,16 @@
 package com.hisham.MovieReview.models;
 
 public class MovieModel {
-    private String title; //[movie]
-    private int vote_count; // year
-    private float popularity; // rating
-    private String id; //duration
-    private String original_language; //director
-    private String original_title; //tagline
+    private String title;
+    private int vote_count;
+    private float popularity;
+    private String id;
+    private String original_language;
+    private String original_title;
     private String date;
-//    @SerializedName("cast")
-//    private List<Cast> castList;
-    private String poster_path; //image
-    private String overview; // story
+
+    private String poster_path;
+    private String overview;
 
     public String getMovie() {
         return title;
@@ -60,15 +59,6 @@ public class MovieModel {
     public void setTagline(String original_title) {
         this.original_title = original_title;
     }
-
-//    public List<Cast> getCastList() {
-//        return castList;
-//    }
-//
-//    public void setCastList(List<Cast> castList) {
-//        this.castList = castList;
-//    }
-//
     public String getImage() {
         String a="https://image.tmdb.org/t/p/";
         String b="w185";
@@ -96,16 +86,5 @@ public class MovieModel {
     public void setDate(String date) {
         this.date = date;
     }
-//
-//    public static class Cast {
-//        private String name;
-//
-//        public String getName() {
-//            return name;
-//        }
-//
-//        public void setName(String name) {
-//            this.name = name;
-//        }
-//    }
+
 }

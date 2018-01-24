@@ -48,6 +48,30 @@
         ]
     },
     {
+        "outputFile": "D:\\Android\\MovieReview\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\Sajib\\.android\\build-cache\\c531062d8f948b0c2e2c342fb9ee972b8fd45b67\\output\\res\\values-w360dp-v13\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 294,
+                        "endColumn": 54,
+                        "endOffset": 344
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "D:\\Android\\MovieReview\\app\\build\\intermediates\\res\\merged\\debug\\values-w360dp-v13\\values-w360dp-v13.xml",
         "map": [
             {

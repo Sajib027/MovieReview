@@ -76,7 +76,18 @@
                 android:text="Date"
                 android:textAppearance="?android:attr/textAppearanceSmall">
 
+
             </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sajib"/>
+            <TextView
+                android:id="@+id/ctDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:inputType="datetime"/>
         </LinearLayout>
     </LinearLayout>
 

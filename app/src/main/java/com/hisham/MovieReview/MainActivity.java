@@ -42,6 +42,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -58,9 +60,7 @@ public class MainActivity extends ActionBarActivity {
         dialog = new ProgressDialog(this);
         dialog.setIndeterminate(true);
         dialog.setCancelable(false);
-        dialog.setMessage("Loading. Please wait..."); // showing a dialog for loading the data
-        // Create default options which will be used for every
-        //  displayImage(...) call if no options will be passed to this method
+        dialog.setMessage("Loading. Please wait...");
         DisplayImageOptions defaultOptions = new DisplayImageOptions.Builder()
                 .cacheInMemory(true)
                 .cacheOnDisk(true)
@@ -68,12 +68,9 @@ public class MainActivity extends ActionBarActivity {
         ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext())
         .defaultDisplayImageOptions(defaultOptions)
         .build();
-        ImageLoader.getInstance().init(config); // Do it on Application start
-
+        ImageLoader.getInstance().init(config);
         lvMovies = (ListView)findViewById(R.id.lvMovies);
 
-
-        // To start fetching the data when app start, uncomment below line to start the async task.
                 new JSONTask().execute(URL_TO_HIT);
     }
 
@@ -112,11 +109,7 @@ public class MainActivity extends ActionBarActivity {
                 Gson gson = new Gson();
                 for(int i=0; i<parentArray.length(); i++) {
                     JSONObject finalObject = parentArray.getJSONObject(i);
-                    /**
-                     * below single line of code from Gson saves you from writing the json parsing yourself
-                     * which is commented below
-                      */
-                    MovieModel movieModel = gson.fromJson(finalObject.toString(), MovieModel.class); // a single line json parsing using Gson
+                    MovieModel movieModel = gson.fromJson(finalObject.toString(), MovieModel.class);
                     movieModelList.add(movieModel);
                 }
                 return movieModelList;
@@ -154,7 +147,7 @@ public class MainActivity extends ActionBarActivity {
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                         MovieModel movieModel = result.get(position); // getting the model
                         Intent intent = new Intent(MainActivity.this, DetailActivity.class);
-                        intent.putExtra("movieModel", new Gson().toJson(movieModel)); // converting model json into string type and sending it via intent
+                        intent.putExtra("movieModel", new Gson().toJson(movieModel));
                         startActivity(intent);
                     }
                 });
@@ -196,6 +189,7 @@ public class MainActivity extends ActionBarActivity {
                 holder.tvCast = (TextView)convertView.findViewById(R.id.tvCast);
                 holder.tvDate=(TextView)convertView.findViewById(R.id.tvDate);
                 holder.tvStory = (TextView)convertView.findViewById(R.id.tvStory);
+                holder.ctDate=(TextView)convertView.findViewById(R.id.ctDate);
                 convertView.setTag(holder);
             } else {
                 holder = (ViewHolder) convertView.getTag();
@@ -238,6 +232,7 @@ public class MainActivity extends ActionBarActivity {
             holder.tvDirector.setText("Original Language:" + movieModelList.get(position).getDirector());
             holder.tvDate.setText("Release Date: "+movieModelList.get(position).getDate());
 
+
             // rating bar
             holder.rbMovieRating.setRating(movieModelList.get(position).getRating()/2);
 
@@ -263,6 +258,7 @@ public class MainActivity extends ActionBarActivity {
             private TextView tvCast;
             private TextView tvDate;
             private TextView tvStory;
+            private TextView ctDate;
         }
 
     }
